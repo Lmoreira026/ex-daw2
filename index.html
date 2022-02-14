@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instrução Normativa - IFTM</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+    <main>
+      <h1>Trabalho Remoto</h1>
+      <form id="formulario">
+        <div class="input-container">
+          <label for="sindrome-gripal-sim"> Está com síndrome gripal?</label>
+
+          <div>
+            <input value="sim" type="radio" name="sindrome-gripal" id="sindrome-gripal-sim"/>
+            <label for="sindrome-gripal-sim">Sim</label>
+          </div>
+
+          <div>
+            <input value="nao" type="radio" name="sindrome-gripal" id="sindrome-gripal-nao"/>
+            <label for="sindrome-gripal-nao">Não</label>
+          </div>
+        </div>
+
+
+        <div class="input-container">
+          <label for="teste-covid-sim"> Você realizou o teste do covid-19?</label>
+
+          <div>
+            <input value="sim" type="radio" name="teste-covid" id="teste-covid-sim"/>
+            <label for="teste-covid-sim">Sim</label>
+          </div>
+
+          <div>
+            <input value="nao" type="radio" name="teste-covid" id="teste-covid-nao"/>
+            <label for="teste-covid-nao">Não</label>
+          </div>
+        </div>
+
+        <div class="input-container" id="resultado-covid-ct">
+          <label for="resultado-covid-positivo"> Qual foi o resultado do seu teste? </label>
+
+          <div>
+            <input type="radio" name="resultado-covid" id="resultado-covid-positivo"/>
+            <label for="resultado-covid-positivo">Positivo</label>
+          </div>
+
+          <div>
+            <input type="radio" name="resultado-covid" id="resultado-covid-negativo"/>
+            <label for="resultado-covid-negativo">Negativo</label>
+          </div>
+        </div>
+        
+
+        <div class="input-container">
+          <label for="febre-covid-sim"> Você está com Febre há pelo menos 24 horas? </label>
+
+          <div>
+            <input value="sim" type="radio" name="febre-covid" id="febre-covid-sim"/>
+            <label for="febre-covid-sim">Sim</label>
+          </div>
+
+          <div>
+            <input value="nao" type="radio" name="febre-covid" id="febre-covid-nao"/>
+            <label for="febre-covid-nao">Não</label>
+          </div>
+        </div>
+
+
+        <button type="submit">Enviar</button>
+
+      </form>
+    </main>
+  </body>
+</html>

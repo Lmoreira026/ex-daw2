@@ -1,0 +1,7 @@
+#resultado-covid-ct {
+  display: none;
+}
+
+#resultado-covid-ct.show {
+  display: block;
+}
